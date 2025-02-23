@@ -1,9 +1,10 @@
-import { NextIntlClientProvider, useMessages } from "next-intl";
+import { NextIntlClientProvider } from "next-intl";
 import { notFound } from "next/navigation";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Noto_Serif_JP, Noto_Sans_JP } from "next/font/google";
 import { unstable_setRequestLocale } from "next-intl/server";
+import { Locale } from "@/i18n/navigation";
 
 const notoSerif = Noto_Serif_JP({
   subsets: ["latin"],
@@ -23,13 +24,12 @@ export function generateStaticParams() {
 
 type Props = {
   children: React.ReactNode;
-  params: { locale: string };
+  params: { locale: Locale };
 };
 
-export default async function LocaleLayout({
-  children,
-  params: { locale },
-}: Props) {
+export default async function LocaleLayout({ children, params }: Props) {
+  const resolvedParams = await Promise.resolve(params);
+  const { locale } = resolvedParams;
   unstable_setRequestLocale(locale);
 
   let messages;

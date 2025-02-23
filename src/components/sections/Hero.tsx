@@ -27,7 +27,7 @@ const Hero = () => {
 
   return (
     <section className="min-h-screen flex items-center justify-center relative overflow-hidden bg-gradient-to-b from-white via-sakura-50 to-white dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
-      <div className="absolute inset-0 bg-[url('/patterns/japanese-pattern.png')] opacity-[0.05] dark:opacity-[0.03]" />
+      {/* <div className="absolute inset-0 bg-[url('/patterns/japanese-pattern.png')] opacity-[0.05] dark:opacity-[0.03]" /> */}
       <div className="absolute inset-0 bg-gradient-to-br from-sakura-200/20 to-sakura-300/20 dark:from-ai-900/20 dark:to-ai-800/20" />
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_transparent_0%,_rgba(255,255,255,0.1)_100%)] dark:bg-[radial-gradient(circle_at_center,_transparent_0%,_rgba(0,0,0,0.2)_100%)]" />
 
