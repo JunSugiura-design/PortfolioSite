@@ -23,9 +23,11 @@ export function generateStaticParams() {
   return [{ locale: "en" }, { locale: "ja" }];
 }
 
+type Params = Promise<{ locale: "en" | "ja" }>;
 type Props = {
   children: React.ReactNode;
-  params: Promise<{ locale: Locale }>;
+  //params: { locale: Locale };
+  params: Params;
 };
 
 export default async function LocaleLayout({ children, params }: Props) {
