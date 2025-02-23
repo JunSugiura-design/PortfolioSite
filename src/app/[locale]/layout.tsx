@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Noto_Serif_JP, Noto_Sans_JP } from "next/font/google";
+import { unstable_setRequestLocale } from "next-intl/server";
 
 const notoSerif = Noto_Serif_JP({
   subsets: ["latin"],
@@ -20,13 +21,17 @@ export function generateStaticParams() {
   return [{ locale: "en" }, { locale: "ja" }];
 }
 
+type Props = {
+  children: React.ReactNode;
+  params: { locale: string };
+};
+
 export default async function LocaleLayout({
   children,
   params: { locale },
-}: {
-  children: React.ReactNode;
-  params: { locale: string };
-}) {
+}: Props) {
+  unstable_setRequestLocale(locale);
+
   let messages;
   try {
     messages = (await import(`../../i18n/locales/${locale}.json`)).default;
