@@ -1,0 +1,169 @@
+{
+  "navigation": {
+    "home": "ホーム",
+    "about": "自己紹介",
+    "skills": "スキル",
+    "works": "制作実績",
+    "career": "経歴",
+    "contact": "お問い合わせ"
+  },
+  "home": {
+    "title": "ようこそ",
+    "description": "私の作品を紹介するポートフォリオサイトです",
+    "scroll": "スクロール"
+  },
+  "about": {
+    "title": "自己紹介",
+    "description": "本業ではSCM業界で製品導入コンサルタントとして活動し、複業ではAIスペシャリストとしてAIと技術への情熱を追求しています。大学時代の画像認識研究の経験を基に、現在はテキスト・画像・動画生成AIを活用したソリューション開発、予測モデルの開発、Web開発などに取り組んでいます。日本語・英語のバイリンガルとして、グローバルな視点でプロジェクトを推進しています。",
+    "expertise": "得意分野",
+    "languages": "言語",
+    "japanese": "日本語",
+    "english": "英語",
+    "native": "ネイティブ",
+    "business": "ビジネス",
+    "qualifications": "資格・実績",
+    "hobbies": "趣味",
+    "hobbyItems": [
+      { "icon": "🐱", "text": "猫" },
+      { "icon": "📚", "text": "読書" },
+      { "icon": "🎬", "text": "映画" },
+      { "icon": "☕", "text": "コーヒー" },
+      { "icon": "💪", "text": "筋トレ" }
+    ],
+    "expertiseItems": [
+      "サプライチェーンマネジメント（SCM）",
+      "生成AI活用（テキスト・画像・動画生成、チャットボット開発）",
+      "機械学習モデルの設計と実装",
+      "Webアプリケーション開発"
+    ],
+    "qualificationItems": [
+      "応用情報技術者",
+      "Kaggleコンペティション参加経験",
+      "TOEIC 650点"
+    ]
+  },
+  "career": {
+    "title": "経歴",
+    "description": "これまでのキャリアと主な実績",
+    "positions": [
+      {
+        "title": "SCM企業の会社員（本業）",
+        "role": "製品導入コンサルタント",
+        "description": "SCM製品の導入支援、業務改善コンサルティングを担当",
+        "highlights": [
+          "大手製造業向けSCMシステムの導入",
+          "グローバルチームとの協業"
+        ]
+      },
+      {
+        "title": "フリーランス（複業）",
+        "role": "AIスペシャリスト",
+        "description": "生成AI活用、機械学習モデルの開発、Webアプリケーション開発など、幅広いプロジェクトに携わる。",
+        "highlights": [
+          "データ予測モデルの開発",
+          "大規模言語モデルを活用したAIチャットボットの開発"
+        ]
+      },
+      {
+        "title": "学歴",
+        "role": "数学専攻",
+        "description": "数学の基礎から応用まで学び、画像認識・画像分類の研究に従事。機械学習の基礎から実践的な応用まで幅広く学習。",
+        "highlights": [
+          "画像認識アルゴリズムの研究",
+          "機械学習モデルの実装と評価"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "title": "スキル",
+    "description": "機械学習、AI、Web開発における私の専門知識とスキルセット",
+    "level": {
+      "beginner": "初級",
+      "intermediate": "中級",
+      "advanced": "上級"
+    },
+    "categories": {
+      "programming": "プログラミング言語",
+      "ml_ai": "機械学習 / AI",
+      "web_dev": "フレームワーク・ライブラリ",
+      "soft_skills": "ソフトスキル"
+    },
+    "items": {
+      "programming": [
+        { "name": "Python", "level": 85 },
+        { "name": "SQL", "level": 80 },
+        { "name": "JavaScript", "level": 75 },
+        { "name": "Dart", "level": 65 }
+      ],
+      "ml_ai": [
+        { "name": "テキスト生成AI活用", "level": 85 },
+        { "name": "画像・動画生成AI活用", "level": 85 },
+        { "name": "AIチャットボット開発", "level": 85 },
+        { "name": "機械学習モデル開発", "level": 80 },
+        { "name": "画像認識・処理", "level": 70 }
+      ],
+      "web_dev": [
+        { "name": "scikit-learn", "level": 80 },
+        { "name": "TensorFlow", "level": 75 },
+        { "name": "React/Next.js", "level": 70 },
+        { "name": "Flutter", "level": 65 }
+      ],
+      "soft_skills": [
+        { "name": "向学心", "level": 90 },
+        { "name": "問題解決能力", "level": 85 },
+        { "name": "分析力", "level": 85 },
+        { "name": "チームワーク", "level": 80 },
+        { "name": "顧客対応力", "level": 80 }
+      ]
+    }
+  },
+  "works": {
+    "title": "制作実績",
+    "description": "機械学習、AI、Webアプリケーション開発の分野における主要プロジェクト",
+    "viewProject": "プロジェクトを見る",
+    "projects": [
+      {
+        "title": "機械学習予測モデル",
+        "description": "テーブルデータを用いた予測モデルの開発。Kaggleコンペティションの参加経験あり。",
+        "tags": ["Python", "scikit-learn", "LightGBM"],
+        "link": "https://github.com/JunSugiura-design/Portfolios",
+        "image": "/images/ml-project.jpg"
+      },
+      {
+        "title": "生成AIチャットボット",
+        "description": "最新の生成AIモデルを活用したカスタムチャットボットの開発。プロンプトエンジニアリングによる対話制御を実現。",
+        "tags": ["Gemini API", "Dify"],
+        "link": "https://udify.app/chat/7ScdsxbEMG05zbLk",
+        "image": "/images/chatbot.jpg"
+      },
+      {
+        "title": "クロスプラットフォームアプリ",
+        "description": "FlutterとFirebaseを使用したモバイル・Webアプリケーションの開発。",
+        "tags": ["Flutter", "Dart", "Firebase"],
+        "link": "https://personal-values-list-1f1d2.web.app",
+        "image": "/images/flutter-app.jpg"
+      },
+      {
+        "title": "ポートフォリオウェブサイト",
+        "description": "AI、機械学習、ウェブ開発における私のスキルとプロジェクトを紹介するポートフォリオサイトです。つまりこのページのことです。",
+        "tags": ["Next.js", "TypeScript", "Tailwind CSS"],
+        "link": "https://junsugiura.com",
+        "image": "/images/portfolio-website.jpg"
+      }
+    ]
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "description": "お仕事のご依頼やご相談は、LinkedInのダイレクトメッセージにてお願いいたします。",
+    "connect": "LinkedInでつながる",
+    "socialLinks": {
+      "linkedin": "LinkedInでつながる",
+      "github": "GitHubプロフィールを見る"
+    }
+  },
+  "footer": {
+    "copyright": "All rights reserved.",
+    "notice": "当サイトのコンテンツの無断転載・複製を禁止します。"
+  }
+}

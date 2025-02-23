@@ -1,0 +1,169 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "works": "Works",
+    "career": "Career",
+    "contact": "Contact"
+  },
+  "home": {
+    "title": "Welcome",
+    "description": "Portfolio site showcasing my work",
+    "scroll": "Scroll"
+  },
+  "about": {
+    "title": "About Me",
+    "description": "I primarily work as a product implementation consultant in the SCM industry, while pursuing my passion for AI and technology as an AI specialist. Building on my university research in image recognition, I now develop solutions utilizing text, image, and video generation AI, along with prediction models and web applications. As a Japanese-English bilingual, I bring a global perspective to every project.",
+    "expertise": "Expertise",
+    "languages": "Languages",
+    "japanese": "Japanese",
+    "english": "English",
+    "native": "Native",
+    "business": "Business",
+    "qualifications": "Qualifications & Achievements",
+    "hobbies": "Hobbies",
+    "hobbyItems": [
+      { "icon": "🐱", "text": "Cats" },
+      { "icon": "📚", "text": "Reading" },
+      { "icon": "🎬", "text": "Movies" },
+      { "icon": "☕", "text": "Coffee" },
+      { "icon": "💪", "text": "Working Out" }
+    ],
+    "expertiseItems": [
+      "Supply Chain Management (SCM)",
+      "Generative AI (Text, Image & Video Generation, Chatbot Development)",
+      "Machine Learning Model Development",
+      "Web Application Development"
+    ],
+    "qualificationItems": [
+      "Applied Information Technology Engineer",
+      "Kaggle Competition Experience",
+      "TOEIC 650"
+    ]
+  },
+  "career": {
+    "title": "Career",
+    "description": "Career History and Major Achievements",
+    "positions": [
+      {
+        "title": "SCM Company Employee (Main Job)",
+        "role": "Product Implementation Consultant",
+        "description": "Responsible for SCM product implementation support and business improvement consulting.",
+        "highlights": [
+          "SCM system implementation for major manufacturers",
+          "Collaboration with global teams"
+        ]
+      },
+      {
+        "title": "Freelance (Side Jobs)",
+        "role": "AI Specialist",
+        "description": "Involved in various projects including generative AI, machine learning model development, and web application development.",
+        "highlights": [
+          "Development of data prediction models",
+          "Development of AI chatbots using large language models"
+        ]
+      },
+      {
+        "title": "Education",
+        "role": "Mathematics Major",
+        "description": "Learned a wide range of topics from basic mathematics to practical applications. Engaged in research on image recognition and classification.",
+        "highlights": [
+          "Research on image recognition algorithms",
+          "Implementation and evaluation of machine learning models"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "title": "Skills",
+    "description": "My expertise and skill set in machine learning, AI, and web development",
+    "level": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced"
+    },
+    "categories": {
+      "programming": "Programming Languages",
+      "ml_ai": "Machine Learning / AI",
+      "web_dev": "Frameworks & Libraries",
+      "soft_skills": "Soft Skills"
+    },
+    "items": {
+      "programming": [
+        { "name": "Python", "level": 85 },
+        { "name": "SQL", "level": 80 },
+        { "name": "JavaScript", "level": 75 },
+        { "name": "Dart", "level": 65 }
+      ],
+      "ml_ai": [
+        { "name": "Text Generation AI", "level": 85 },
+        { "name": "Image & Video Generation AI", "level": 85 },
+        { "name": "AI Chatbot Development", "level": 85 },
+        { "name": "ML Model Development", "level": 80 },
+        { "name": "Image Recognition & Processing", "level": 70 }
+      ],
+      "web_dev": [
+        { "name": "scikit-learn", "level": 80 },
+        { "name": "TensorFlow", "level": 75 },
+        { "name": "React/Next.js", "level": 70 },
+        { "name": "Flutter", "level": 65 }
+      ],
+      "soft_skills": [
+        { "name": "Eagerness to Learn", "level": 90 },
+        { "name": "Problem Solving", "level": 85 },
+        { "name": "Analytical Skills", "level": 85 },
+        { "name": "Teamwork", "level": 80 },
+        { "name": "Client Communication", "level": 80 }
+      ]
+    }
+  },
+  "works": {
+    "title": "Works",
+    "description": "Major projects in machine learning, AI, and web application development",
+    "viewProject": "View Project",
+    "projects": [
+      {
+        "title": "Machine Learning Prediction Model",
+        "description": "Development of prediction models using tabular and image data. Participated in Kaggle competitions with top rankings.",
+        "tags": ["Python", "scikit-learn", "LightGBM"],
+        "link": "https://github.com/JunSugiura-design/Portfolios",
+        "image": "/images/ml-project.jpg"
+      },
+      {
+        "title": "Generative AI Chatbot",
+        "description": "Development of custom chatbots utilizing the latest generative AI models. Achieved dialogue control through prompt engineering. (Sorry, this is a Japanese model.)",
+        "tags": ["Gemini API", "Dify"],
+        "link": "https://udify.app/chat/7ScdsxbEMG05zbLk",
+        "image": "/images/chatbot.jpg"
+      },
+      {
+        "title": "Cross-Platform Application",
+        "description": "Development of mobile and web applications using Flutter and Firebase.",
+        "tags": ["Flutter", "Dart", "Firebase"],
+        "link": "https://personal-values-list-1f1d2.web.app",
+        "image": "/images/flutter-app.jpg"
+      },
+      {
+        "title": "Portfolio Website",
+        "description": "A portfolio website showcasing my skills and projects in AI, machine learning, and web development. This is the page you are currently on.",
+        "tags": ["Next.js", "TypeScript", "Tailwind CSS"],
+        "link": "https://junsugiura.com",
+        "image": "/images/portfolio-website.jpg"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "For work inquiries and consultations, please contact me via LinkedIn direct message.",
+    "connect": "Connect on LinkedIn",
+    "socialLinks": {
+      "linkedin": "Connect on LinkedIn",
+      "github": "View GitHub Profile"
+    }
+  },
+  "footer": {
+    "copyright": "All rights reserved.",
+    "notice": "Unauthorized use or reproduction of the content on this site is strictly prohibited."
+  }
+}
