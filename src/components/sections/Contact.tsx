@@ -35,7 +35,7 @@ const Contact = () => {
 
           <div className="flex flex-col items-center space-y-8">
             <motion.a
-              href="https://linkedin.com/in/yourusername"
+              href="https://www.linkedin.com/in/junsugiura-69353122b/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-sakura-400 to-sakura-500 dark:from-ai-500 dark:to-ai-600 text-white rounded-lg hover:from-sakura-500 hover:to-sakura-600 dark:hover:from-ai-600 dark:hover:to-ai-700 transition-all hover:shadow-lg space-x-3 font-jp-gothic"
@@ -50,7 +50,7 @@ const Contact = () => {
 
             <div className="flex justify-center space-x-8">
               <motion.a
-                href="https://github.com/yourusername"
+                href="https://github.com/JunSugiura-design"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-sakura-500 dark:text-ai-400 hover:text-sakura-600 dark:hover:text-ai-500 transition-colors"
