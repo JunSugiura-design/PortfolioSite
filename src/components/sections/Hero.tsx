@@ -41,11 +41,7 @@ const Hero = () => {
             <div className="w-24 h-0.5 bg-gradient-to-r from-sakura-300 to-sakura-400 dark:from-ai-400/30 dark:to-ai-500/30 mx-auto mb-8"></div>
             <h1 className="text-5xl md:text-7xl font-japanese font-bold mb-6">
               <span className="text-gray-700 dark:text-gray-300">
-<<<<<<< HEAD
                 Hello, I&apos;m
-=======
-                Hello, I'm
->>>>>>> af5d732a84599775b518b8dbf831f0868f724ae5
               </span>{" "}
               <br />
               <span className="bg-gradient-to-r from-sakura-400 to-sakura-600 dark:from-ai-200 dark:to-ai-400 bg-clip-text text-transparent">

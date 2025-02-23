@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-import { NextIntlClientProvider } from "next-intl";
-=======
 import { NextIntlClientProvider, useMessages } from "next-intl";
->>>>>>> af5d732a84599775b518b8dbf831f0868f724ae5
 import { notFound } from "next/navigation";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
