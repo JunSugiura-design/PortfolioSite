@@ -36,7 +36,6 @@ const SkillBar = ({
     threshold: 0.1,
     triggerOnce: true,
   });
-  const t = useTranslations("skills");
 
   return (
     <motion.div
