@@ -4,14 +4,15 @@ import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 
 const Hero = () => {
-  const t = useTranslations();
+  const t = useTranslations("home");
+  const nav = useTranslations("navigation");
 
   const navigationItems = [
-    { href: "#about", text: t("navigation.about") },
-    { href: "#skills", text: t("navigation.skills") },
-    { href: "#works", text: t("navigation.works") },
-    { href: "#career", text: t("navigation.career") },
-    { href: "#contact", text: t("navigation.contact") },
+    { href: "#about", text: nav("about") },
+    { href: "#skills", text: nav("skills") },
+    { href: "#works", text: nav("works") },
+    { href: "#career", text: nav("career") },
+    { href: "#contact", text: nav("contact") },
   ];
 
   const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
@@ -54,7 +55,7 @@ const Hero = () => {
             <div className="w-24 h-0.5 bg-gradient-to-r from-sakura-400 to-sakura-300 dark:from-ai-500/30 dark:to-ai-400/30 mx-auto mt-8"></div>
           </div>
           <p className="text-xl md:text-2xl font-jp-gothic text-gray-700 dark:text-gray-300 mb-16">
-            {t("home.description")}
+            {t("description")}
           </p>
 
           <motion.div
