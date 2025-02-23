@@ -4,7 +4,7 @@ import createNextIntlPlugin from "next-intl/plugin";
 const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");
 
 const config: NextConfig = {
-  output: "export", // 静的エクスポート用
+  output: "standalone", // 'export'から'standalone'に変更
   images: {
     unoptimized: true, // 静的エクスポート時に必要
   },

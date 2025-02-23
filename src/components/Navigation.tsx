@@ -75,7 +75,7 @@ const Navigation = () => {
           </div>
           <div className="flex gap-4 font-jp-gothic">
             <Link
-              href="/en"
+              href={`/en${pathname.replace(/^\/(en|ja)/, "")}`}
               className={`text-gray-700 dark:text-gray-300 hover:text-sakura-500 dark:hover:text-ai-300 transition-colors ${
                 currentLocale === "en" ? "text-sakura-500 dark:text-ai-400" : ""
               }`}
@@ -84,7 +84,7 @@ const Navigation = () => {
             </Link>
             <span className="text-gray-400 dark:text-gray-600">|</span>
             <Link
-              href="/ja"
+              href={`/ja${pathname.replace(/^\/(en|ja)/, "")}`}
               className={`text-gray-700 dark:text-gray-300 hover:text-sakura-500 dark:hover:text-ai-300 transition-colors ${
                 currentLocale === "ja" ? "text-sakura-500 dark:text-ai-400" : ""
               }`}
