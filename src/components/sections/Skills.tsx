@@ -11,12 +11,6 @@ const skillCategories = [
   "soft_skills",
 ] as const;
 
-const getSkillLevelText = (level: number): string => {
-  if (level >= 85) return "Advanced";
-  if (level >= 75) return "Intermediate";
-  return "Beginner";
-};
-
 const getSkillDots = (level: number): string => {
   const totalDots = 5;
   const filledDots = Math.round((level / 100) * totalDots);
@@ -43,12 +37,6 @@ const SkillBar = ({
     triggerOnce: true,
   });
   const t = useTranslations("skills");
-
-  const getSkillLevelText = (level: number): string => {
-    if (level >= 85) return t("level.advanced");
-    if (level >= 75) return t("level.intermediate");
-    return t("level.beginner");
-  };
 
   return (
     <motion.div
