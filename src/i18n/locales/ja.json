@@ -143,13 +143,6 @@
         "tags": ["Flutter", "Dart", "Firebase"],
         "link": "https://personal-values-list-1f1d2.web.app",
         "image": "/images/flutter-app.jpg"
-      },
-      {
-        "title": "ポートフォリオウェブサイト",
-        "description": "AI、機械学習、ウェブ開発における私のスキルとプロジェクトを紹介するポートフォリオサイトです。つまりこのページのことです。",
-        "tags": ["Next.js", "TypeScript", "Tailwind CSS"],
-        "link": "https://junsugiura.com",
-        "image": "/images/portfolio-website.jpg"
       }
     ]
   },

@@ -143,13 +143,6 @@
         "tags": ["Flutter", "Dart", "Firebase"],
         "link": "https://personal-values-list-1f1d2.web.app",
         "image": "/images/flutter-app.jpg"
-      },
-      {
-        "title": "Portfolio Website",
-        "description": "A portfolio website showcasing my skills and projects in AI, machine learning, and web development. This is the page you are currently on.",
-        "tags": ["Next.js", "TypeScript", "Tailwind CSS"],
-        "link": "https://junsugiura.com",
-        "image": "/images/portfolio-website.jpg"
       }
     ]
   },

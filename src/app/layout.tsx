@@ -1,11 +1,17 @@
 import type { Metadata } from "next";
-import { Noto_Sans_JP } from "next/font/google";
+import { Noto_Serif_JP, Noto_Sans_JP } from "next/font/google";
 import "./globals.css";
 
-const notoSansJP = Noto_Sans_JP({
+const notoSerif = Noto_Serif_JP({
   subsets: ["latin"],
-  weight: ["400", "500", "700"],
-  display: "swap",
+  weight: ["400", "700"],
+  variable: "--font-noto-serif",
+});
+
+const notoSans = Noto_Sans_JP({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+  variable: "--font-noto-sans",
 });
 
 export const metadata: Metadata = {
@@ -19,17 +25,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="ja" className="scroll-smooth">
-      <body
-        className={`${notoSansJP.className} bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-white min-h-screen flex flex-col`}
-      >
-        <main className="flex-grow">{children}</main>
-        <footer className="py-8 text-center text-sm text-gray-500 dark:text-gray-400 border-t border-gray-200 dark:border-gray-800">
-          <div className="container mx-auto px-6">
-            <p>© 2024 Jun Sugiura. All rights reserved.</p>
-            <p>当サイトのコンテンツの無断転載・複製を禁じます。</p>
-          </div>
-        </footer>
+    <html
+      lang="ja"
+      className={`${notoSerif.variable} ${notoSans.variable} scroll-smooth`}
+    >
+      <body className="font-japanese bg-sakura-50 dark:bg-gray-900">
+        {children}
       </body>
     </html>
   );
