@@ -14,7 +14,7 @@
   },
   "about": {
     "title": "About Me",
-    "description": "I primarily work as a product implementation consultant in the SCM industry, while pursuing my passion for AI and technology as an AI specialist. Building on my university research in image recognition, I now develop solutions utilizing text, image, and video generation AI, along with prediction models and web applications. As a Japanese-English bilingual, I bring a global perspective to every project.",
+    "description": "I primarily work as a product implementation consultant in the SCM industry, while pursuing my passion for AI and technology as an AI enthusiast. Building on my university research in image recognition, I now develop solutions utilizing text, image, and video generation AI, along with prediction models and web applications. As a Japanese-English bilingual, I bring a global perspective to every project.",
     "expertise": "Expertise",
     "languages": "Languages",
     "japanese": "Japanese",
@@ -57,7 +57,7 @@
       },
       {
         "title": "Freelance (Side Jobs)",
-        "role": "AI Specialist",
+        "role": "AI Enthusiast",
         "description": "Involved in various projects including generative AI, machine learning model development, and web application development.",
         "highlights": [
           "Development of data prediction models",
