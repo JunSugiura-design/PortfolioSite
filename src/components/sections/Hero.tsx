@@ -12,7 +12,6 @@ const Hero = () => {
     { href: "#skills", text: nav("skills") },
     { href: "#works", text: nav("works") },
     { href: "#career", text: nav("career") },
-    { href: "#contact", text: nav("contact") },
   ];
 
   const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
