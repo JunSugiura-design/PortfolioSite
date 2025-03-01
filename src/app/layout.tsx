@@ -15,8 +15,8 @@ const notoSans = Noto_Sans_JP({
 });
 
 export const metadata: Metadata = {
-  title: "Jun Sugiura | Portfolio",
-  description: "Jun Sugiuraのポートフォリオサイト",
+  title: "Jun | Portfolio",
+  description: "Junのポートフォリオサイト",
 };
 
 export default function RootLayout({

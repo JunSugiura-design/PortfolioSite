@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="flex flex-col items-center">
           <div className="w-16 h-0.5 bg-gradient-to-r from-sakura-300 to-sakura-400 dark:from-ai-400/30 dark:to-ai-500/30 mb-6"></div>
           <p className="font-jp-gothic text-gray-600 dark:text-gray-400 text-center">
-            © {currentYear} Jun Sugiura. All rights reserved.
+            © {currentYear} Jun. All rights reserved.
           </p>
           <p className="font-jp-gothic text-gray-500 dark:text-gray-500 text-sm mt-2">
             {t("notice")}

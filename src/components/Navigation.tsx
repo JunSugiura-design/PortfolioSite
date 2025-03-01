@@ -16,7 +16,6 @@ const Navigation = () => {
     { href: "#skills", label: t("skills") },
     { href: "#works", label: t("works") },
     { href: "#career", label: t("career") },
-    { href: "#contact", label: t("contact") },
   ];
 
   const [isScrolled, setIsScrolled] = useState(false);
@@ -58,7 +57,7 @@ const Navigation = () => {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            Jun Sugiura
+            Jun
           </motion.div>
           <div className="flex gap-6">
             {navigation.map(({ href, label }) => (
